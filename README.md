@@ -89,4 +89,5 @@ kubectl apply -f service.yaml
 #### Verify the deployment:
 
 kubectl get pods
+
 kubectl get services
