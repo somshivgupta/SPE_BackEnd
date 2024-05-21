@@ -45,11 +45,10 @@ cd self-assessment-test-app-backend
 pip install -r requirements.txt
 
 
-### Configuration
+## Configuration
 
 
-#### Environment Variables
-
+### Environment Variables
 
 Create a .env file in the root directory of the project and add the following variables:
 
@@ -65,7 +64,7 @@ EMAIL_USER=dubeyashutosh310@gmail.com
 EMAIL_PASS=hdgaqtaxaodbkopv
 
 
-#### Kubernetes Config
+### Kubernetes Config
 
 
 deployment.yaml: Contains the deployment configuration for Kubernetes.
@@ -73,20 +72,22 @@ deployment.yaml: Contains the deployment configuration for Kubernetes.
 service.yaml: Contains the service configuration for Kubernetes.
 
 
-### Kubernetes Deployment
-
+## Kubernetes Deployment
 
 To deploy the application on a Kubernetes cluster:
 
-#### Apply the deployment configuration:
+
+### Apply the deployment configuration:
 
 kubectl apply -f deployment.yaml
 
-#### Apply the service configuration:
+
+### Apply the service configuration:
 
 kubectl apply -f service.yaml
 
-#### Verify the deployment:
+
+### Verify the deployment:
 
 kubectl get pods
 
