@@ -14,3 +14,74 @@ Containerization: Dockerfile for building the backend service image.
 Kubernetes Deployment: YAML files for deploying the service on a Kubernetes cluster.
 
 
+## Getting Started
+
+
+### Prerequisites
+
+SpringBoot BackEnd Code 
+
+Docker
+
+Kubernetes
+
+SMTP server credentials
+
+Avien Cloud account and credentials
+
+
+### Installation
+
+#### Clone the repository:
+
+git clone https://github.com/your-username/self-assessment-test-app-backend.git
+cd self-assessment-test-app-backend
+
+
+#### Install dependencies (if applicable):
+
+pip install -r requirements.txt
+
+
+### Configuration
+
+
+#### Environment Variables
+
+Create a .env file in the root directory of the project and add the following variables:
+
+
+AVIEN_CLOUD_URL=jdbc:mysql://avnadmin:AVNS_kQdTw90A2qOTdVbgh3n@mysql-spemajor-spemajor.l.aivencloud.com:12264/test
+
+SMTP_SERVER=smtp.gmail.com
+
+SMTP_PORT=587
+
+EMAIL_USER=dubeyashutosh310@gmail.com
+
+EMAIL_PASS=hdgaqtaxaodbkopv
+
+
+#### Kubernetes Config
+
+deployment.yaml: Contains the deployment configuration for Kubernetes.
+
+service.yaml: Contains the service configuration for Kubernetes.
+
+
+### Kubernetes Deployment
+
+To deploy the application on a Kubernetes cluster:
+
+#### Apply the deployment configuration:
+
+kubectl apply -f deployment.yaml
+
+#### Apply the service configuration:
+
+kubectl apply -f service.yaml
+
+#### Verify the deployment:
+
+kubectl get pods
+kubectl get services
