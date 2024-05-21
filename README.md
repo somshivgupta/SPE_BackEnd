@@ -45,7 +45,7 @@ cd self-assessment-test-app-backend
 
 Create a .env file in the root directory of the project and add the following variables:
 
-
+```
 AVIEN_CLOUD_URL=jdbc:mysql://avnadmin:AVNS_kQdTw90A2qOTdVbgh3n@mysql-spemajor-spemajor.l.aivencloud.com:12264/test
 
 SMTP_SERVER=smtp.gmail.com
@@ -55,7 +55,7 @@ SMTP_PORT=587
 EMAIL_USER=dubeyashutosh310@gmail.com
 
 EMAIL_PASS=hdgaqtaxaodbkopv
-
+```
 
 ### Kubernetes Config
 
