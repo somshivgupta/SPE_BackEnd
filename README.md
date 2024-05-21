@@ -71,17 +71,18 @@ To deploy the application on a Kubernetes cluster:
 
 
 ### Apply the deployment configuration:
-
+```
 kubectl apply -f deployment.yaml
-
+```
 
 ### Apply the service configuration:
-
+```
 kubectl apply -f service.yaml
-
+```
 
 ### Verify the deployment:
-
+```
 kubectl get pods
 
 kubectl get services
+```
