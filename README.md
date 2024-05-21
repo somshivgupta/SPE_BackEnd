@@ -17,15 +17,11 @@ This repository contains the backend implementation for the Self Assessment Test
 
 ### Prerequisites
 
-SpringBoot BackEnd Code 
-
-Docker
-
-Kubernetes
-
-SMTP server credentials
-
-Avien Cloud account and credentials
+1. SpringBoot BackEnd Code 
+2. Docker
+3. Kubernetes
+4. SMTP server credentials
+5. Avien Cloud account and credentials
 
 
 ### Installation
