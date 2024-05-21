@@ -35,7 +35,7 @@ Avien Cloud account and credentials
 #### Clone the repository:
 
 
-git clone [https://github.com/your-username/self-assessment-test-app-backend.git](https://github.com/somshivgupta/SPE_BackEnd.git)
+git clone [https://github.com/somshivgupta/SPE_BackEnd.git]
 
 cd self-assessment-test-app-backend
 
