@@ -14,7 +14,6 @@ This repository contains the backend implementation for the Self Assessment Test
 
 ## Getting Started
 
-
 ### Prerequisites
 
 SpringBoot BackEnd Code 
