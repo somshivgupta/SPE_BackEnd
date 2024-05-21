@@ -34,11 +34,13 @@ Avien Cloud account and credentials
 
 #### Clone the repository:
 
+
 git clone https://github.com/your-username/self-assessment-test-app-backend.git
 cd self-assessment-test-app-backend
 
 
 #### Install dependencies (if applicable):
+
 
 pip install -r requirements.txt
 
@@ -47,6 +49,7 @@ pip install -r requirements.txt
 
 
 #### Environment Variables
+
 
 Create a .env file in the root directory of the project and add the following variables:
 
@@ -64,12 +67,14 @@ EMAIL_PASS=hdgaqtaxaodbkopv
 
 #### Kubernetes Config
 
+
 deployment.yaml: Contains the deployment configuration for Kubernetes.
 
 service.yaml: Contains the service configuration for Kubernetes.
 
 
 ### Kubernetes Deployment
+
 
 To deploy the application on a Kubernetes cluster:
 
